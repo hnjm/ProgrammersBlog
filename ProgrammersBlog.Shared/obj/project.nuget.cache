@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "+cS5vVO0MbxjTZvw8B2xgi+iosCZIKitsSvZkHJEvK7udEeyfxDikHOt7iOwBcoyMEJoIQpuhmWwYlJ4cFvxaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.6.0.0-preview.1.21102.2.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.1.21102.2.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.analyzers.6.0.0-preview.1.21102.2.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0-preview.1.21102.12\\microsoft.extensions.caching.abstractions.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0-preview.1.21102.12\\microsoft.extensions.caching.memory.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0-preview.1.21102.12\\microsoft.extensions.dependencyinjection.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0-preview.1.21102.12\\microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0-preview.1.21102.12\\microsoft.extensions.logging.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0-preview.1.21102.12\\microsoft.extensions.logging.abstractions.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.extensions.options\\6.0.0-preview.1.21102.12\\microsoft.extensions.options.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-preview.1.21102.12\\microsoft.extensions.primitives.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\system.collections.immutable\\6.0.0-preview.1.21102.12\\system.collections.immutable.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\system.componentmodel.annotations\\6.0.0-preview.1.21102.12\\system.componentmodel.annotations.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0-preview.1.21102.12\\system.diagnostics.diagnosticsource.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Ares\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.1.21102.12\\system.runtime.compilerservices.unsafe.6.0.0-preview.1.21102.12.nupkg.sha512"
+  ],
+  "logs": []
+}

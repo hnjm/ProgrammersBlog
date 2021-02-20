@@ -1,0 +1,7 @@
+C:\Users\Ares\Desktop\Yunus\Github\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Entities.dll
+C:\Users\Ares\Desktop\Yunus\Github\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Shared.dll
+C:\Users\Ares\Desktop\Yunus\Github\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Shared.pdb
+C:\Users\Ares\Desktop\Yunus\Github\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.csprojAssemblyReference.cache
+C:\Users\Ares\Desktop\Yunus\Github\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ares\Desktop\Yunus\Github\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.AssemblyInfoInputs.cache
+C:\Users\Ares\Desktop\Yunus\Github\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.AssemblyInfo.cs
