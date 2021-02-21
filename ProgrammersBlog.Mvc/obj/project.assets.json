@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
+      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ProgrammersBlog\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
       "projectName": "ProgrammersBlog.Mvc",
-      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
+      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ProgrammersBlog\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ProgrammersBlog\\ProgrammersBlog.Mvc\\obj\\",
+      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ProgrammersBlog\\ProgrammersBlog\\ProgrammersBlog.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

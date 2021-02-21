@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+cS5vVO0MbxjTZvw8B2xgi+iosCZIKitsSvZkHJEvK7udEeyfxDikHOt7iOwBcoyMEJoIQpuhmWwYlJ4cFvxaQ==",
+  "dgSpecHash": "XfxmnC/H+AII4QFsLBsrVvb3qvot9XIunedH2J/+vHI8D3MQ8age1sF7Ju4DMcjer1I9rO3bj306+MfLoBu/cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ProgrammersBlog\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ares\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\Ares\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.1.21102.2.nupkg.sha512",
