@@ -55,7 +55,7 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Mappings
                 " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia" +
                 " deserunt mollit anim id est laborum.",
                 Thumbnail = "Default.jpg",
-                SeoDesription = "C# 9.0 ve NET5 Yenilikleri",
+                SeoDescription = "C# 9.0 ve NET5 Yenilikleri",
                 SeoTags = "C#, C# 9, NET5, NET Framework, .NET Core",
                 SeoAuthor = "Yunus Özdemir",
                 Date = DateTime.Now,
@@ -83,7 +83,7 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Mappings
                 " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia" +
                 " deserunt mollit anim id est laborum.",
                 Thumbnail = "Default.jpg",
-                SeoDesription = "C++ 11 ve 19 Yenilikleri",
+                SeoDescription = "C++ 11 ve 19 Yenilikleri",
                 SeoTags = "C++ 11 ve 19 Yenilikleri",
                 SeoAuthor = "Yunus Özdemir",
                 Date = DateTime.Now,
@@ -111,7 +111,7 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Mappings
                 " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia" +
                 " deserunt mollit anim id est laborum.",
                  Thumbnail = "Default.jpg",
-                 SeoDesription = "JavaScript ES2019 ve ES2020 Yeniliklerii",
+                 SeoDescription = "JavaScript ES2019 ve ES2020 Yeniliklerii",
                  SeoTags = "JavaScript ES2019 ve ES2020 Yenilikleri",
                  SeoAuthor = "Yunus Özdemir",
                  Date = DateTime.Now,

@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "ProgrammersBlog.Shared/1.0.0": {
+      "ProgrammersBlog.Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.0-preview.1.21102.2"
+          "ProgrammersBlog.Shared": "1.0.0"
         },
         "runtime": {
-          "ProgrammersBlog.Shared.dll": {}
+          "ProgrammersBlog.Entities.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/6.0.0-preview.1.21102.2": {
@@ -166,11 +166,19 @@
             "fileVersion": "6.0.21.10212"
           }
         }
+      },
+      "ProgrammersBlog.Shared/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0-preview.1.21102.2"
+        },
+        "runtime": {
+          "ProgrammersBlog.Shared.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "ProgrammersBlog.Shared/1.0.0": {
+    "ProgrammersBlog.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -279,6 +287,11 @@
       "sha512": "sha512-OpeMUeevV3isOGNeiEwuBNq4fNA4B5SuFb941AxzKyjtddknFCV0ykIxyIA4Xxy5O3NjHmnfzqdv4thfC76mwg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0-preview.1.21102.12",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "ProgrammersBlog.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
