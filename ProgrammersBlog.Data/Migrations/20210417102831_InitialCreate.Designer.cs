@@ -10,7 +10,7 @@ using ProgrammersBlog.Data.Concrete.EntityFramework.Contexts;
 namespace ProgrammersBlog.Data.Migrations
 {
     [DbContext(typeof(ProgrammersBlogContext))]
-    [Migration("20210221124854_InitialCreate")]
+    [Migration("20210417102831_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -114,12 +114,12 @@ namespace ProgrammersBlog.Data.Migrations
                             CommentCount = 1,
                             Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 100, DateTimeKind.Local).AddTicks(7904),
-                            Date = new DateTime(2021, 2, 21, 15, 48, 54, 100, DateTimeKind.Local).AddTicks(5890),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 297, DateTimeKind.Local).AddTicks(7550),
+                            Date = new DateTime(2021, 4, 17, 13, 28, 31, 297, DateTimeKind.Local).AddTicks(5880),
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 100, DateTimeKind.Local).AddTicks(8968),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 297, DateTimeKind.Local).AddTicks(8390),
                             Note = "C# 9.0 ve NET5 Yenilikleri",
                             SeoAuthor = "Yunus Özdemir",
                             SeoDescription = "C# 9.0 ve NET5 Yenilikleri",
@@ -136,12 +136,12 @@ namespace ProgrammersBlog.Data.Migrations
                             CommentCount = 1,
                             Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 101, DateTimeKind.Local).AddTicks(1214),
-                            Date = new DateTime(2021, 2, 21, 15, 48, 54, 101, DateTimeKind.Local).AddTicks(1211),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 298, DateTimeKind.Local).AddTicks(270),
+                            Date = new DateTime(2021, 4, 17, 13, 28, 31, 298, DateTimeKind.Local).AddTicks(270),
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 101, DateTimeKind.Local).AddTicks(1215),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 298, DateTimeKind.Local).AddTicks(270),
                             Note = "C++ 11 ve 19 Yenilikleri",
                             SeoAuthor = "Yunus Özdemir",
                             SeoDescription = "C++ 11 ve 19 Yenilikleri",
@@ -158,12 +158,12 @@ namespace ProgrammersBlog.Data.Migrations
                             CommentCount = 1,
                             Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 101, DateTimeKind.Local).AddTicks(1223),
-                            Date = new DateTime(2021, 2, 21, 15, 48, 54, 101, DateTimeKind.Local).AddTicks(1221),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 298, DateTimeKind.Local).AddTicks(280),
+                            Date = new DateTime(2021, 4, 17, 13, 28, 31, 298, DateTimeKind.Local).AddTicks(280),
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 101, DateTimeKind.Local).AddTicks(1225),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 298, DateTimeKind.Local).AddTicks(280),
                             Note = "JavaScript ES2019 ve ES2020 Yenilikleri",
                             SeoAuthor = "Yunus Özdemir",
                             SeoDescription = "JavaScript ES2019 ve ES2020 Yeniliklerii",
@@ -226,12 +226,12 @@ namespace ProgrammersBlog.Data.Migrations
                         {
                             Id = 1,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 104, DateTimeKind.Local).AddTicks(4089),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 301, DateTimeKind.Local).AddTicks(5640),
                             Description = "C# Programlama Dili En Güncel Bilgiler",
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 104, DateTimeKind.Local).AddTicks(4103),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 301, DateTimeKind.Local).AddTicks(5670),
                             Name = "C#",
                             Note = "C# Blog Kategorisi"
                         },
@@ -239,12 +239,12 @@ namespace ProgrammersBlog.Data.Migrations
                         {
                             Id = 2,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 104, DateTimeKind.Local).AddTicks(4117),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 301, DateTimeKind.Local).AddTicks(5680),
                             Description = "C++ Programlama Dili En Güncel Bilgiler",
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 104, DateTimeKind.Local).AddTicks(4119),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 301, DateTimeKind.Local).AddTicks(5690),
                             Name = "C++",
                             Note = "C++ Blog Kategorisi"
                         },
@@ -252,12 +252,12 @@ namespace ProgrammersBlog.Data.Migrations
                         {
                             Id = 3,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 104, DateTimeKind.Local).AddTicks(4124),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 301, DateTimeKind.Local).AddTicks(5690),
                             Description = "JavaScript Programlama Dili En Güncel Bilgiler",
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 104, DateTimeKind.Local).AddTicks(4125),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 301, DateTimeKind.Local).AddTicks(5690),
                             Name = "JavaScript",
                             Note = "JavaScript Blog Kategorisi"
                         });
@@ -316,11 +316,11 @@ namespace ProgrammersBlog.Data.Migrations
                             Id = 1,
                             ArticleId = 1,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 106, DateTimeKind.Local).AddTicks(7476),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 304, DateTimeKind.Local).AddTicks(3330),
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 106, DateTimeKind.Local).AddTicks(7492),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 304, DateTimeKind.Local).AddTicks(3350),
                             Note = "C# Makale Yorumu",
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
                         },
@@ -329,11 +329,11 @@ namespace ProgrammersBlog.Data.Migrations
                             Id = 2,
                             ArticleId = 2,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 106, DateTimeKind.Local).AddTicks(7511),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 304, DateTimeKind.Local).AddTicks(3370),
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 106, DateTimeKind.Local).AddTicks(7512),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 304, DateTimeKind.Local).AddTicks(3370),
                             Note = "C++ Makale Yorumu",
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
                         },
@@ -342,11 +342,11 @@ namespace ProgrammersBlog.Data.Migrations
                             Id = 3,
                             ArticleId = 3,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 106, DateTimeKind.Local).AddTicks(7518),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 304, DateTimeKind.Local).AddTicks(3380),
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 106, DateTimeKind.Local).AddTicks(7520),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 304, DateTimeKind.Local).AddTicks(3380),
                             Note = "JavaScript Makale Yorumu",
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
                         });
@@ -404,12 +404,12 @@ namespace ProgrammersBlog.Data.Migrations
                         {
                             Id = 1,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 108, DateTimeKind.Local).AddTicks(7021),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 306, DateTimeKind.Local).AddTicks(4340),
                             Description = "Admin Rolü, Tüm Haklara Sahiptir",
                             IsActive = true,
                             IsDeleted = false,
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 108, DateTimeKind.Local).AddTicks(7036),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 306, DateTimeKind.Local).AddTicks(4360),
                             Name = "Admin",
                             Note = "Admin Rolüdür"
                         });
@@ -501,7 +501,7 @@ namespace ProgrammersBlog.Data.Migrations
                         {
                             Id = 1,
                             CreatedByName = "InitialCreate",
-                            CreatedDate = new DateTime(2021, 2, 21, 15, 48, 54, 122, DateTimeKind.Local).AddTicks(2371),
+                            CreatedDate = new DateTime(2021, 4, 17, 13, 28, 31, 320, DateTimeKind.Local).AddTicks(7430),
                             Description = "İlk Admin Kullanıcı",
                             Email = "yunusozdemir468@gmail.com",
                             FirstName = "Yunus",
@@ -509,7 +509,7 @@ namespace ProgrammersBlog.Data.Migrations
                             IsDeleted = false,
                             LastName = "Özdemir",
                             ModifiedByName = "InitialCreate",
-                            ModifiedDate = new DateTime(2021, 2, 21, 15, 48, 54, 122, DateTimeKind.Local).AddTicks(2387),
+                            ModifiedDate = new DateTime(2021, 4, 17, 13, 28, 31, 320, DateTimeKind.Local).AddTicks(7450),
                             Note = "Admin Kullanıcısı",
                             PasswordHash = new byte[] { 48, 49, 57, 50, 48, 50, 51, 97, 55, 98, 98, 100, 55, 51, 50, 53, 48, 53, 49, 54, 102, 48, 54, 57, 100, 102, 49, 56, 98, 53, 48, 48 },
                             Picture = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSX4wVGjMQ37PaO4PdUVEAliSLi8-c2gJ1zvQ&usqp=CAU",

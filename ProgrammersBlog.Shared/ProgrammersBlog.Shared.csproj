@@ -8,4 +8,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-preview.1.21102.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+    <Folder Include="Utilities\Results\" />
+    <Folder Include="Utilities\Results\Abstract\" />
+    <Folder Include="Utilities\Results\Abstract\ComplexTypes\" />
+    <Folder Include="Utilities\Results\Concrete\" />
+  </ItemGroup>
 </Project>
