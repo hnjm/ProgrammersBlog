@@ -1,20 +1,28 @@
 ﻿<Properties StartupConfiguration="{EF65BD26-C1C9-4F9E-9327-B5B534AAB1CD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammersBlog.Shared/Utilities/Results/Concrete/Result.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammersBlog.Shared/Utilities/Results/Concrete/DataResult.cs">
     <Files>
       <File FileName="ProgrammersBlog.Data/Concrete/EntityFramework/Contexts/ProgrammersBlogContext.cs" Line="24" Column="1" />
-      <File FileName="ProgrammersBlog.Shared/Utilities/Results/Abstract/IResult.cs" Line="11" Column="6" />
-      <File FileName="ProgrammersBlog.Shared/Utilities/Results/Abstract/ComplexTypes/ResultStatus.cs" Line="9" Column="14" />
-      <File FileName="ProgrammersBlog.Shared/Utilities/Results/Concrete/Result.cs" Line="4" Column="32" />
+      <File FileName="ProgrammersBlog.Shared/Utilities/Results/Abstract/IResult.cs" Line="2" Column="47" />
+      <File FileName="ProgrammersBlog.Shared/Utilities/Results/Abstract/ComplexTypes/ResultStatus.cs" Line="6" Column="8" />
+      <File FileName="ProgrammersBlog.Shared/Utilities/Results/Concrete/Result.cs" Line="13" Column="65" />
+      <File FileName="ProgrammersBlog.Data/Concrete/UnitOfWork.cs" Line="20" Column="1" />
+      <File FileName="ProgrammersBlog.Shared/Utilities/Results/Abstract/IDataResult.cs" Line="6" Column="31" />
+      <File FileName="ProgrammersBlog.Shared/Utilities/Results/Concrete/DataResult.cs" Line="4" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ProgrammersBlog" expanded="True">
+            <Node name="ProgrammersBlog.Data" expanded="True">
+              <Node name="Concrete" expanded="True" />
+            </Node>
             <Node name="ProgrammersBlog.Shared" expanded="True">
               <Node name="Utilities" expanded="True">
                 <Node name="Results" expanded="True">
+                  <Node name="Abstract" expanded="True" />
+                  <Node name="ComplexTypes" expanded="True" />
                   <Node name="Concrete" expanded="True">
-                    <Node name="Result.cs" selected="True" />
+                    <Node name="DataResult.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>

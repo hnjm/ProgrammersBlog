@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ProgrammersBlog.Shared.Utilities.Results.Abstract.ComplexTypes
+namespace ProgrammersBlog.Shared.Utilities.Results.ComplexTypes
 {
     public enum ResultStatus
     {

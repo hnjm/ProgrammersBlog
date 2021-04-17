@@ -12,7 +12,7 @@
     <Folder Include="Utilities\" />
     <Folder Include="Utilities\Results\" />
     <Folder Include="Utilities\Results\Abstract\" />
-    <Folder Include="Utilities\Results\Abstract\ComplexTypes\" />
     <Folder Include="Utilities\Results\Concrete\" />
+    <Folder Include="Utilities\Results\ComplexTypes\" />
   </ItemGroup>
 </Project>

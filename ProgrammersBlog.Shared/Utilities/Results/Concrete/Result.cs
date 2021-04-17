@@ -1,6 +1,6 @@
 ﻿using System;
 using ProgrammersBlog.Shared.Utilities.Results.Abstract;
-using ProgrammersBlog.Shared.Utilities.Results.Abstract.ComplexTypes;
+using ProgrammersBlog.Shared.Utilities.Results.ComplexTypes;
 
 namespace ProgrammersBlog.Shared.Utilities.Results.Concrete
 {
