@@ -1,13 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ProgrammersBlog.Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ProgrammersBlog.Data.Concrete.EntityFramework.Mappings
 {
-    public class UserMap : IEntityTypeConfiguration<User>
+    public class UserMap:IEntityTypeConfiguration<User>
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
@@ -16,9 +18,9 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Mappings
             builder.Property(u => u.Email).IsRequired();
             builder.Property(u => u.Email).HasMaxLength(50);
             builder.HasIndex(u => u.Email).IsUnique();
-            builder.Property(u => u.UserName).IsRequired();
-            builder.Property(u => u.UserName).HasMaxLength(20);
-            builder.HasIndex(u => u.UserName).IsUnique();
+            builder.Property(u => u.Username).IsRequired();
+            builder.Property(u => u.Username).HasMaxLength(20);
+            builder.HasIndex(u => u.Username).IsUnique();
             builder.Property(u => u.PasswordHash).IsRequired();
             builder.Property(u => u.PasswordHash).HasColumnType("VARBINARY(500)");
             builder.Property(u => u.Description).HasMaxLength(500);
@@ -39,24 +41,25 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Mappings
             builder.Property(u => u.IsDeleted).IsRequired();
             builder.Property(u => u.Note).HasMaxLength(500);
             builder.ToTable("Users");
+
             builder.HasData(new User
             {
                 Id = 1,
                 RoleId = 1,
-                FirstName = "Yunus",
-                LastName = "Özdemir",
-                UserName = "yunusozdemir",
-                Email = "yunusozdemir468@gmail.com",
+                FirstName = "Alper",
+                LastName = "Tunga",
+                Username = "alpertunga",
+                Email = "alper@altu.dev",
                 IsActive = true,
-                IsDeleted=false,
-                CreatedByName="InitialCreate",
-                CreatedDate=DateTime.Now,
-                ModifiedByName="InitialCreate",
-                ModifiedDate=DateTime.Now, 
-                Description="İlk Admin Kullanıcı",
-                Note="Admin Kullanıcısı",
-                PasswordHash= Encoding.ASCII.GetBytes("0192023a7bbd73250516f069df18b500"),
-                Picture= "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSX4wVGjMQ37PaO4PdUVEAliSLi8-c2gJ1zvQ&usqp=CAU"
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Description = "İlk Admin Kullanıcı",
+                Note = "Admin Kullanıcısı",
+                PasswordHash = Encoding.ASCII.GetBytes("0192023a7bbd73250516f069df18b500"),
+                Picture = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSX4wVGjMQ37PaO4PdUVEAliSLi8-c2gJ1zvQ&usqp=CAU"
             });
         }
     }

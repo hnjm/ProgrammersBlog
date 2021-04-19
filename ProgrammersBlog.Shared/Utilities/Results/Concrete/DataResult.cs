@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using ProgrammersBlog.Shared.Utilities.Results.Abstract;
 using ProgrammersBlog.Shared.Utilities.Results.ComplexTypes;
 
@@ -8,29 +12,25 @@ namespace ProgrammersBlog.Shared.Utilities.Results.Concrete
     {
         public DataResult(ResultStatus resultStatus,T data)
         {
-            ResultStatus = ResultStatus;
+            ResultStatus = resultStatus;
             Data = data;
         }
-        public DataResult(ResultStatus resultStatus,string message, T data)
+        public DataResult(ResultStatus resultStatus, string message, T data)
         {
-            ResultStatus = ResultStatus;
-            Data = data;
+            ResultStatus = resultStatus;
             Message = message;
+            Data = data;
         }
         public DataResult(ResultStatus resultStatus, string message, T data,Exception exception)
         {
-            ResultStatus = ResultStatus;
-            Data = data;
+            ResultStatus = resultStatus;
             Message = message;
+            Data = data;
             Exception = exception;
         }
-
-        public T Data { get; }
-
         public ResultStatus ResultStatus { get; }
-
         public string Message { get; }
-
         public Exception Exception { get; }
+        public T Data { get; }
     }
 }

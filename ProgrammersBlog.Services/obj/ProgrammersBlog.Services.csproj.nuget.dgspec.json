@@ -4,6 +4,137 @@
     "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Services/ProgrammersBlog.Services.csproj": {}
   },
   "projects": {
+    "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Data/ProgrammersBlog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Data/ProgrammersBlog.Data.csproj",
+        "projectName": "ProgrammersBlog.Data",
+        "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Data/ProgrammersBlog.Data.csproj",
+        "packagesPath": "/Users/yunus/.nuget/packages/",
+        "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yunus/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Entities/ProgrammersBlog.Entities.csproj": {
+                "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Entities/ProgrammersBlog.Entities.csproj"
+              },
+              "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/ProgrammersBlog.Shared.csproj": {
+                "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/ProgrammersBlog.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Entities/ProgrammersBlog.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Entities/ProgrammersBlog.Entities.csproj",
+        "projectName": "ProgrammersBlog.Entities",
+        "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Entities/ProgrammersBlog.Entities.csproj",
+        "packagesPath": "/Users/yunus/.nuget/packages/",
+        "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yunus/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/ProgrammersBlog.Shared.csproj": {
+                "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/ProgrammersBlog.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Services/ProgrammersBlog.Services.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +143,74 @@
         "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Services/ProgrammersBlog.Services.csproj",
         "packagesPath": "/Users/yunus/.nuget/packages/",
         "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yunus/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Data/ProgrammersBlog.Data.csproj": {
+                "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Data/ProgrammersBlog.Data.csproj"
+              },
+              "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Entities/ProgrammersBlog.Entities.csproj": {
+                "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Entities/ProgrammersBlog.Entities.csproj"
+              },
+              "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/ProgrammersBlog.Shared.csproj": {
+                "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/ProgrammersBlog.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/ProgrammersBlog.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/ProgrammersBlog.Shared.csproj",
+        "projectName": "ProgrammersBlog.Shared",
+        "projectPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/ProgrammersBlog.Shared.csproj",
+        "packagesPath": "/Users/yunus/.nuget/packages/",
+        "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yunus/.config/NuGet/NuGet.Config"
@@ -37,6 +236,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

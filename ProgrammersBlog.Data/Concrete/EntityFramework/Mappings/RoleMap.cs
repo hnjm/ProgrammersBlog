@@ -1,13 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ProgrammersBlog.Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ProgrammersBlog.Data.Concrete.EntityFramework.Mappings
 {
-    public class RoleMap : IEntityTypeConfiguration<Role>
+    public class RoleMap:IEntityTypeConfiguration<Role>
     {
         public void Configure(EntityTypeBuilder<Role> builder)
         {
@@ -31,14 +33,14 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Mappings
             {
                 Id = 1,
                 Name = "Admin",
-                Description = "Admin Rolü, Tüm Haklara Sahiptir",
+                Description = "Admin Rolü, Tüm Haklara Sahiptir.",
                 IsActive = true,
-                IsDeleted=false,
-                CreatedByName="InitialCreate",
-                CreatedDate=DateTime.Now,
-                ModifiedByName="InitialCreate",
-                ModifiedDate=DateTime.Now,
-                Note="Admin Rolüdür",
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "Admin Rolüdür."
             });
         }
     }
