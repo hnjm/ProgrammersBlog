@@ -11,6 +11,7 @@ D:/NetCoreRepos/ProgrammersBlog/ProgrammersBlog.Shared/obj/Debug/net5.0/Programm
 /Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/bin/Debug/net5.0/ProgrammersBlog.Shared.dll
 /Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/bin/Debug/net5.0/ref/ProgrammersBlog.Shared.dll
 /Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/bin/Debug/net5.0/ProgrammersBlog.Shared.pdb
+/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/obj/Debug/net5.0/ProgrammersBlog.Shared.csprojAssemblyReference.cache
 /Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/obj/Debug/net5.0/ProgrammersBlog.Shared.GeneratedMSBuildEditorConfig.editorconfig
 /Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/obj/Debug/net5.0/ProgrammersBlog.Shared.AssemblyInfoInputs.cache
 /Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/obj/Debug/net5.0/ProgrammersBlog.Shared.AssemblyInfo.cs
