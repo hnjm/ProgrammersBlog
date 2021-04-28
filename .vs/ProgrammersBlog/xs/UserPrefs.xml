@@ -30,13 +30,10 @@
               </Node>
             </Node>
             <Node name="ProgrammersBlog.Entities" expanded="True" />
-            <Node name="ProgrammersBlog.Mvc" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="_ViewStart.cshtml" selected="True" />
-              </Node>
+            <Node name="ProgrammersBlog.Mvc" expanded="True" />
+            <Node name="ProgrammersBlog.Services" expanded="True">
+              <Node name="Concrete" selected="True" />
             </Node>
-            <Node name="ProgrammersBlog.Services" expanded="True" />
           </Node>
         </State>
       </Pad>
