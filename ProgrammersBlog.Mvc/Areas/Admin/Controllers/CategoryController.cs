@@ -75,7 +75,7 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _categoryService.Update(categoryUpdateDto, "Alper Tunga");
+                var result = await _categoryService.Update(categoryUpdateDto, "Yunus Özdemir");
                 if (result.ResultStatus == ResultStatus.Success)
                 {
                     var categoryUpdateAjaxModel = JsonSerializer.Serialize(new CategoryUpdateAjaxViewModel
@@ -93,7 +93,6 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
             return Json(categoryUpdateAjaxErrorModel);
 
         }
-        [HttpGet]
         public async Task<JsonResult> GetAllCategories()
         {
             var result = await _categoryService.GetAllByNonDeleted();

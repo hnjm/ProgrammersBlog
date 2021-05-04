@@ -18,7 +18,7 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Contexts
         public DbSet<User> Users { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost;Database=Northwind;User=sa;Password=Password123@jkl#;");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=ProgrammersBlog;User=sa;Password=Password123@jkl#;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -80,7 +80,8 @@ namespace ProgrammersBlog.Services.Concrete
 
         public async Task<IDataResult<CategoryListDto>> GetAllByNonDeleted()
         {
-            var categories = await _unitOfWork.Categories.GetAllAsync(c => !c.IsDeleted, c => c.Articles);
+            var categories = await _unitOfWork.Categories.GetAllAsync(c => !c.IsDeleted);
+            //, c => c.Articles
             if (categories.Count > -1)
             {
                 return new DataResult<CategoryListDto>(ResultStatus.Success, new CategoryListDto
