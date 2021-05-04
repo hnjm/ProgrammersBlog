@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{0698F3D0-2274-4A7E-B255-64FCB6CB0184}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammersBlog.Mvc/Views/_ViewStart.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammersBlog.Mvc/Areas/Admin/Controllers/CategoryController.cs">
     <Files>
       <File FileName="ProgrammersBlog.Services/AutoMapper/Profiles/ArticleProfile.cs" Line="13" Column="6" />
       <File FileName="ProgrammersBlog.Services/AutoMapper/Profiles/CategoryProfile.cs" />
@@ -8,31 +8,38 @@
       <File FileName="ProgrammersBlog.Mvc/appsettings.json" />
       <File FileName="ProgrammersBlog.Mvc/Program.cs" />
       <File FileName="ProgrammersBlog.Mvc/Startup.cs" />
-      <File FileName="ProgrammersBlog.Data/Concrete/EntityFramework/Contexts/ProgrammersBlogContext.cs" Line="21" Column="114" />
+      <File FileName="ProgrammersBlog.Data/Concrete/EntityFramework/Contexts/ProgrammersBlogContext.cs" />
       <File FileName="ProgrammersBlog.Services/Abstract/ICategoryService.cs" />
       <File FileName="ProgrammersBlog.Services/Concrete/CategoryManager.cs" />
       <File FileName="ProgrammersBlog.Services/Extensions/ServiceCollectionExtensions.cs" />
       <File FileName="ProgrammersBlog.Data/Abstract/IUnitOfWork.cs" />
-      <File FileName="ProgrammersBlog.Mvc/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="ProgrammersBlog.Mvc/Views/Home/Index.cshtml" Line="2" Column="83" />
-      <File FileName="ProgrammersBlog.Mvc/Views/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="ProgrammersBlog.Mvc/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="ProgrammersBlog.Mvc/Controllers/HomeController.cs" />
+      <File FileName="ProgrammersBlog.Mvc/Views/Home/Index.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Views/_ViewImports.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Views/_ViewStart.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Controllers/CategoryController.cs" Line="94" Column="1" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Models/CategoryAddAjaxViewModel.cs" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Models/CategoryUpdateAjaxViewModel.cs" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Views/Category/_CategoryAddPartial.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Controllers/HomeController.cs" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Views/Category/_CategoryUpdatePartial.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Views/Category/Index.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Views/Home/Index.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Views/_ViewImports.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Views/_ViewStart.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ProgrammersBlog" expanded="True">
-            <Node name="ProgrammersBlog.Data" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True">
-                  <Node name="Contexts" expanded="True" />
+            <Node name="ProgrammersBlog.Mvc" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True">
+                    <Node name="CategoryController.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
-            </Node>
-            <Node name="ProgrammersBlog.Entities" expanded="True" />
-            <Node name="ProgrammersBlog.Mvc" expanded="True" />
-            <Node name="ProgrammersBlog.Services" expanded="True">
-              <Node name="Concrete" selected="True" />
             </Node>
           </Node>
         </State>

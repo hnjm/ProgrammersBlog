@@ -93,7 +93,7 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
             return Json(categoryUpdateAjaxErrorModel);
 
         }
-
+        [HttpGet]
         public async Task<JsonResult> GetAllCategories()
         {
             var result = await _categoryService.GetAllByNonDeleted();
