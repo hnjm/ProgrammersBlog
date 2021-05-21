@@ -1,55 +1,37 @@
 ﻿<Properties StartupConfiguration="{0698F3D0-2274-4A7E-B255-64FCB6CB0184}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammersBlog.Mvc/Program.cs">
+    <Files>
+      <File FileName="ProgrammersBlog.Data/Concrete/EntityFramework/Mappings/ArticleMap.cs" Line="42" Column="36" />
+      <File FileName="ProgrammersBlog.Data/Concrete/EntityFramework/Mappings/CategoryMap.cs" />
+      <File FileName="ProgrammersBlog.Data/Concrete/EntityFramework/Mappings/CommentMap.cs" />
+      <File FileName="ProgrammersBlog.Data/Concrete/EntityFramework/Mappings/RoleMap.cs" />
+      <File FileName="ProgrammersBlog.Data/Concrete/EntityFramework/Mappings/UserMap.cs" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Views/Category/Index.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Views/Shared/_Layout.cshtml" />
+      <File FileName="ProgrammersBlog.Mvc/Areas/Admin/Views/Shared/_LayoutCssPartial.cshtml" Line="1" Column="1" />
+      <File FileName="ProgrammersBlog.Mvc/Program.cs" Line="16" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ProgrammersBlog" expanded="True">
             <Node name="ProgrammersBlog.Data" expanded="True">
               <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True" />
+                <Node name="EntityFramework" expanded="True">
+                  <Node name="Mappings" expanded="True" />
+                </Node>
               </Node>
-            </Node>
-            <Node name="ProgrammersBlog.Entities" expanded="True">
-              <Node name="Concrete" expanded="True" />
             </Node>
             <Node name="ProgrammersBlog.Mvc" expanded="True">
               <Node name="Areas" expanded="True">
                 <Node name="Admin" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Models" expanded="True" />
                   <Node name="Views" expanded="True">
                     <Node name="Category" expanded="True" />
-                    <Node name="Home" expanded="True" />
                     <Node name="Shared" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="ProgrammersBlog.Services" expanded="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="AutoMapper" expanded="True">
-                <Node name="Profiles" expanded="True">
-                  <Node name="ArticleProfile.cs" selected="True" />
-                </Node>
-              </Node>
-              <Node name="Concrete" expanded="True" />
-              <Node name="Extensions" expanded="True" />
-            </Node>
-            <Node name="ProgrammersBlog.Shared" expanded="True">
-              <Node name="Data" expanded="True">
-                <Node name="Abstract" expanded="True" />
-                <Node name="Concrete" expanded="True">
-                  <Node name="EntityFramework" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Entities" expanded="True">
-                <Node name="Abstract" expanded="True" />
-              </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

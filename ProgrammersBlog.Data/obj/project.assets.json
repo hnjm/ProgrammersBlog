@@ -9424,7 +9424,7 @@
       "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/yunus/.config/NuGet/NuGet.Config"
+        "/Users/yunus/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
