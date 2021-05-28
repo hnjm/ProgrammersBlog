@@ -13,6 +13,9 @@
         "packagesPath": "/Users/yunus/.nuget/packages/",
         "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/yunus/.nuget/NuGet/NuGet.Config"
         ],

@@ -9412,7 +9412,8 @@
     ]
   },
   "packageFolders": {
-    "/Users/yunus/.nuget/packages/": {}
+    "/Users/yunus/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -9423,6 +9424,9 @@
       "packagesPath": "/Users/yunus/.nuget/packages/",
       "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Data/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/yunus/.nuget/NuGet/NuGet.Config"
       ],

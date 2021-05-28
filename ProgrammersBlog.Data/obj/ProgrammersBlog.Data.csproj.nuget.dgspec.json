@@ -13,6 +13,9 @@
         "packagesPath": "/Users/yunus/.nuget/packages/",
         "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Data/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/yunus/.nuget/NuGet/NuGet.Config"
         ],
@@ -88,6 +91,9 @@
         "packagesPath": "/Users/yunus/.nuget/packages/",
         "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Entities/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/yunus/.nuget/NuGet/NuGet.Config"
         ],
@@ -144,6 +150,9 @@
         "packagesPath": "/Users/yunus/.nuget/packages/",
         "outputPath": "/Users/yunus/Documents/GitHub/ProgrammersBlog/ProgrammersBlog.Shared/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/yunus/.nuget/NuGet/NuGet.Config"
         ],
